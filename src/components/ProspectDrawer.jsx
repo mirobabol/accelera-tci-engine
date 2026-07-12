@@ -15,7 +15,56 @@ function ProspectDrawer({ prospect, onClose }) {
     });
   }, [prospect]);
 
-  if (!prospect) return null;
+  // AI Agent Simulation State
+  const [agentMode, setAgentMode] = useState(null); // 'compliance' | 'outreach' | null
+  const [agentStep, setAgentStep] = useState(0);
+  const [agentResult, setAgentResult] = useState(null);
+
+  const runAgent = (mode) => {
+    setAgentMode(mode);
+    setAgentStep(0);
+    setAgentResult(null);
+
+    const steps = mode === 'compliance' ? 5 : 5;
+    let currentStep = 0;
+
+    const interval = setInterval(() => {
+      currentStep++;
+      if (currentStep >= steps) {
+        clearInterval(interval);
+        if (mode === 'compliance') {
+          setAgentResult(`COMPLIANCE RISK REPORT: ${prospect.companyName || prospect.name}\n\n1. Global Sanctions (OFAC/EU): CLEAR\n2. PEP Check (Officers): NO MATCHES\n3. UBO Cross-Reference: VERIFIED\n4. Adverse Media: NONE\n\nAI RECOMMENDATION: Low Risk. Cleared for immediate underwriting and outreach.`);
+        } else {
+          setAgentResult(`Subject: Strategic partnership with ${prospect.companyName || prospect.name}\n\nHi M. Schmidt,\n\nI noticed your recent +14% YoY growth and your aggressive expansion into the regional supply chain sector.\n\nGiven the high volatility in procurement we're seeing across your industry right now, I thought it would be timely to connect. We help companies like ${prospect.companyName || prospect.name} secure their accounts receivable against insolvency so you can expand without the associated credit risk.\n\nAre you open to a brief chat next Tuesday?`);
+        }
+      } else {
+        setAgentStep(currentStep);
+      }
+    }, 1200); // 1.2s per step
+  };
+
+  const getAgentStepText = () => {
+    if (agentMode === 'compliance') {
+      const steps = [
+        "Initializing Legal/Compliance Agent...",
+        "Scraping Global Sanctions Lists (OFAC, UN, EU)...",
+        "Analyzing PEP (Politically Exposed Persons) registry...",
+        "Cross-referencing UBOs across 14 jurisdictions...",
+        "Synthesizing AI Risk Report..."
+      ];
+      return steps[agentStep] || "";
+    } else if (agentMode === 'outreach') {
+      const steps = [
+        "Initializing Sales Engineering Agent...",
+        "Extracting Prospect Firmographics...",
+        "Analyzing Recent News & Growth Signals...",
+        "Formulating Strategic Value Proposition...",
+        "Drafting highly-personalized cold outreach..."
+      ];
+      return steps[agentStep] || "";
+    }
+    return "";
+  };
 
   return (
     <>
@@ -37,25 +86,77 @@ function ProspectDrawer({ prospect, onClose }) {
         <div style={{ padding: '30px', borderBottom: '1px solid rgba(255,255,255,0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
             <h2 style={{ margin: '0 0 5px 0', color: 'var(--color-text-primary)' }}>{prospect.companyName || prospect.name}</h2>
-            <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.9rem' }}>{prospect.industry} • {prospect.region || 'Global'}</div>
+            <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.9rem' }}>{prospect.industry || prospect.sector} • {prospect.region || 'Global'}</div>
           </div>
           <button className="btn btn-secondary" onClick={onClose} style={{ padding: '8px 12px' }}>✕</button>
         </div>
 
         {/* Scrollable Content */}
-        <div style={{ flexGrow: 1, overflowY: 'auto', padding: '30px', display: 'flex', flexDirection: 'column', gap: '30px' }}>
+        <div style={{ flexGrow: 1, overflowY: 'auto', padding: '30px', display: 'flex', flexDirection: 'column', gap: '30px', position: 'relative' }}>
           
+          {/* Agent Action Overlay */}
+          {agentMode && (
+            <div style={{
+              position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, 
+              background: 'rgba(2, 22, 58, 0.95)', zIndex: 10, padding: '40px',
+              display: 'flex', flexDirection: 'column'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
+                <h3 style={{ margin: 0, color: 'var(--color-accent-primary)' }}>
+                  {agentMode === 'compliance' ? 'Agentic Compliance Audit' : 'Agentic Outreach Writer'}
+                </h3>
+                <button className="btn btn-secondary" style={{ padding: '4px 8px', fontSize: '0.8rem' }} onClick={() => setAgentMode(null)}>Close</button>
+              </div>
+
+              {!agentResult ? (
+                <div style={{ flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                  <div style={{ fontSize: '3rem', marginBottom: '20px', animation: 'spin 2s linear infinite' }}>⚙️</div>
+                  <div style={{ fontFamily: 'monospace', color: 'var(--color-success)', fontSize: '1.1rem', textAlign: 'center' }}>
+                    &gt; {getAgentStepText()}
+                  </div>
+                  
+                  {/* Progress Bar */}
+                  <div style={{ width: '80%', height: '4px', background: 'rgba(255,255,255,0.1)', marginTop: '30px', borderRadius: '2px', overflow: 'hidden' }}>
+                    <div style={{ 
+                      height: '100%', 
+                      width: `${(agentStep / 5) * 100}%`, 
+                      background: 'var(--color-accent-primary)',
+                      transition: 'width 1.2s linear'
+                    }} />
+                  </div>
+                </div>
+              ) : (
+                <div style={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ color: 'var(--color-success)', marginBottom: '15px', fontWeight: 'bold' }}>✓ Agent Task Complete</div>
+                  <textarea 
+                    readOnly 
+                    value={agentResult} 
+                    style={{ 
+                      flexGrow: 1, width: '100%', background: 'rgba(0,0,0,0.5)', border: '1px solid rgba(255,255,255,0.2)', 
+                      borderRadius: '8px', color: 'var(--color-text-primary)', padding: '20px', fontSize: '0.95rem',
+                      fontFamily: agentMode === 'compliance' ? 'monospace' : 'inherit',
+                      resize: 'none', lineHeight: '1.6'
+                    }}
+                  />
+                  {agentMode === 'outreach' && (
+                    <button className="btn" style={{ marginTop: '20px' }} onClick={() => alert('Draft copied to clipboard!')}>Copy Draft & Prepare to Send</button>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Top Level Prescriptive Actions */}
           <div style={{ display: 'flex', gap: '15px' }}>
-            <button className="btn" style={{ flex: 1, padding: '10px' }}>Generate Outreach Draft</button>
-            <button className="btn btn-secondary" style={{ flex: 1, padding: '10px', borderColor: 'var(--color-warning)', color: 'var(--color-warning)' }}>Run Deep Compliance Check</button>
+            <button className="btn" style={{ flex: 1, padding: '10px' }} onClick={() => runAgent('outreach')}>Generate Outreach Draft</button>
+            <button className="btn btn-secondary" style={{ flex: 1, padding: '10px', borderColor: 'var(--color-warning)', color: 'var(--color-warning)' }} onClick={() => runAgent('compliance')}>Run Deep Compliance Check</button>
           </div>
 
           {/* Firmographics & Financials */}
           <div>
             <h3 style={{ color: 'var(--color-text-primary)', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '10px', marginBottom: '15px' }}>About the Company</h3>
             <p style={{ color: 'var(--color-text-secondary)', fontSize: '0.95rem', lineHeight: '1.6', marginBottom: '20px', background: 'rgba(255,255,255,0.02)', padding: '15px', borderRadius: '8px', borderLeft: '3px solid var(--color-accent-primary)' }}>
-              {prospect.description || `${prospect.companyName || prospect.name} is a leading enterprise within the ${prospect.industry || 'technology'} sector. Following a recent strategic shift, the company has expanded its regional footprint and aggressively modernized its supply chain logistics. Early AI detection indicates high volatility in their procurement strategy, making them highly receptive to modernized financial solutions and strategic consulting.`}
+              {prospect.description || `${prospect.companyName || prospect.name} is a leading enterprise within the ${prospect.industry || prospect.sector || 'technology'} sector. Following a recent strategic shift, the company has expanded its regional footprint and aggressively modernized its supply chain logistics. Early AI detection indicates high volatility in their procurement strategy, making them highly receptive to modernized financial solutions and strategic consulting.`}
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', fontSize: '0.9rem' }}>
@@ -69,11 +170,11 @@ function ProspectDrawer({ prospect, onClose }) {
               </div>
               <div style={{ background: 'rgba(0,0,0,0.3)', padding: '15px', borderRadius: '8px' }}>
                 <div style={{ color: 'var(--color-text-secondary)', marginBottom: '5px' }}>Key Personnel</div>
-                <div style={{ color: 'var(--color-text-primary)' }}>CEO: M. Schmidt<br/>CFO: A. Bauer</div>
+                <div style={{ color: 'var(--color-text-primary)' }}>{prospect.keyDecisionMaker ? `${prospect.keyDecisionMaker.title}: ${prospect.keyDecisionMaker.name}` : `CEO: M. Schmidt\nCFO: A. Bauer`}</div>
               </div>
               <div style={{ background: 'rgba(0,0,0,0.3)', padding: '15px', borderRadius: '8px' }}>
                 <div style={{ color: 'var(--color-text-secondary)', marginBottom: '5px' }}>Active Signals</div>
-                <div style={{ color: 'var(--color-accent-primary)' }}>{prospect.signals || 'Leadership Expansion, M&A Activity'}</div>
+                <div style={{ color: 'var(--color-accent-primary)' }}>{prospect.recentSignals ? prospect.recentSignals[0] : prospect.signals || 'Leadership Expansion, M&A Activity'}</div>
               </div>
             </div>
           </div>
@@ -178,6 +279,10 @@ function ProspectDrawer({ prospect, onClose }) {
         @keyframes slideIn {
           from { transform: translateX(100%); }
           to { transform: translateX(0); }
+        }
+        @keyframes spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
         }
       `}</style>
     </>

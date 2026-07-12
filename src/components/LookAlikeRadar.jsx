@@ -4,6 +4,14 @@ import mockCohorts from '../data/mockCohorts.json';
 function LookAlikeRadar() {
   const [personas] = useState(mockCohorts?.personas || []);
   const [activePersona, setActivePersona] = useState(personas[0] || null);
+  const [isScanning, setIsScanning] = useState(false);
+  const [scanComplete, setScanComplete] = useState(false);
+
+  // Reset scan state when changing personas
+  React.useEffect(() => {
+    setScanComplete(false);
+    setIsScanning(false);
+  }, [activePersona]);
 
   const renderStarRating = (rating) => {
     return Array(5).fill(0).map((_, i) => (
@@ -103,9 +111,33 @@ function LookAlikeRadar() {
                     </div>
                   </div>
                   
-                  <button className="btn" style={{ width: '100%', marginTop: '20px' }}>
-                    Scan Universe for Matches
-                  </button>
+                  {!scanComplete ? (
+                    <button 
+                      className={`btn ${isScanning ? 'btn-secondary' : ''}`} 
+                      style={{ width: '100%', marginTop: '20px', transition: 'all 0.3s' }}
+                      onClick={() => {
+                        if (isScanning) return;
+                        setIsScanning(true);
+                        setTimeout(() => {
+                          setIsScanning(false);
+                          setScanComplete(true);
+                        }, 3500);
+                      }}
+                      disabled={isScanning}
+                    >
+                      {isScanning ? '⚙️ Scanning 50 Live Prospects...' : 'Scan Universe for Matches'}
+                    </button>
+                  ) : (
+                    <div style={{ marginTop: '20px', padding: '20px', background: 'rgba(0,255,153,0.1)', border: '1px solid var(--color-success)', borderRadius: '8px', textAlign: 'center' }}>
+                      <h4 style={{ color: 'var(--color-success)', margin: '0 0 10px 0' }}>Scan Complete</h4>
+                      <p style={{ color: 'var(--color-text-primary)', fontSize: '0.9rem', marginBottom: '15px' }}>
+                        Agent found <strong>{Math.floor(Math.random() * 8) + 4} highly-correlated matches</strong> in the active database.
+                      </p>
+                      <button className="btn" style={{ width: '100%' }} onClick={() => alert('Matches pushed to active Outreach Pipeline!')}>
+                        Push Matches to Pipeline
+                      </button>
+                    </div>
+                  )}
                 </div>
               </div>
             </>
