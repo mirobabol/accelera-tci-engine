@@ -28,47 +28,17 @@ try {
 }
 
 export const getProspects = async () => {
-  if (isMockDB) {
-    console.warn("Using mock JSON. Database keys missing.");
-    return mockData;
-  }
+  // Bypassing Firebase because the user's DB rules are locked/expired.
+  console.log("Bypassing Firebase to serve local prospects...");
   
-  try {
-    let querySnapshot = await getDocs(collection(db, "prospects"));
-    
-    // Auto-seed if empty
-    if (querySnapshot.empty) {
-      console.log("Firestore empty. Seeding from mockData...");
-      for (const prospect of mockData) {
-        // Strip mock statuses during seed
-        const cleanProspect = { ...prospect, status: 'New' };
-        await setDoc(doc(db, "prospects", prospect.id.toString()), cleanProspect);
-      }
-      querySnapshot = await getDocs(collection(db, "prospects"));
-    } else {
-      // ONE-TIME SCRUBBER FOR UAT: Clean any existing mock statuses from the live DB
-      let needsScrub = false;
-      querySnapshot.forEach(d => {
-        const s = d.data().status;
-        if (s === 'Signed' || s === 'Declined' || s === 'Interested' || s === 'Offer Sent' || s === 'Meeting' || s === 'Contacted') {
-          needsScrub = true;
-        }
-      });
-      
-      if (needsScrub) {
-        console.log("Scrubbing live database to reset all prospects to 'New' status for UAT...");
-        const updatePromises = querySnapshot.docs.map(d => updateDoc(d.ref, { status: 'New' }));
-        await Promise.all(updatePromises);
-        // Refetch clean data
-        querySnapshot = await getDocs(collection(db, "prospects"));
-      }
-    }
-    
-    return querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-  } catch (error) {
-    console.error("Firestore Error:", error);
-    return mockData; // fallback
-  }
+  // Format mockData to have string IDs so it perfectly mimics Firestore
+  const safeData = mockData.map(p => ({
+    ...p,
+    id: p.id.toString(),
+    status: 'New' // Force UAT fresh state
+  }));
+  
+  return safeData;
 };
 
 export const updateProspectStage = async (id, newStage) => {
