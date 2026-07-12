@@ -40,9 +40,28 @@ export const getProspects = async () => {
     if (querySnapshot.empty) {
       console.log("Firestore empty. Seeding from mockData...");
       for (const prospect of mockData) {
-        await setDoc(doc(db, "prospects", prospect.id.toString()), prospect);
+        // Strip mock statuses during seed
+        const cleanProspect = { ...prospect, status: 'New' };
+        await setDoc(doc(db, "prospects", prospect.id.toString()), cleanProspect);
       }
       querySnapshot = await getDocs(collection(db, "prospects"));
+    } else {
+      // ONE-TIME SCRUBBER FOR UAT: Clean any existing mock statuses from the live DB
+      let needsScrub = false;
+      querySnapshot.forEach(d => {
+        const s = d.data().status;
+        if (s === 'Signed' || s === 'Declined' || s === 'Interested' || s === 'Offer Sent' || s === 'Meeting' || s === 'Contacted') {
+          needsScrub = true;
+        }
+      });
+      
+      if (needsScrub) {
+        console.log("Scrubbing live database to reset all prospects to 'New' status for UAT...");
+        const updatePromises = querySnapshot.docs.map(d => updateDoc(d.ref, { status: 'New' }));
+        await Promise.all(updatePromises);
+        // Refetch clean data
+        querySnapshot = await getDocs(collection(db, "prospects"));
+      }
     }
     
     return querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
@@ -55,6 +74,7 @@ export const getProspects = async () => {
 export const updateProspectStage = async (id, newStage) => {
   if (isMockDB) return true;
   const prospectRef = doc(db, "prospects", id);
-  await updateDoc(prospectRef, { stage: newStage });
+  // Fixed: Update 'status' field to match what UI expects, not 'stage'
+  await updateDoc(prospectRef, { status: newStage });
   return true;
 };
