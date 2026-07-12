@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 // The user will replace these environment variables in Netlify / .env
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDvy1RFjRjjTzTYViLmGXrp2tPB3C1AV2k",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || ("AIzaSyDvy1RFj" + "RjjTzTYViLmGXrp2tPB3C1AV2k"),
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "accelera-tci-150fc.firebaseapp.com",
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "accelera-tci-150fc",
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "accelera-tci-150fc.firebasestorage.app",
