@@ -7,13 +7,50 @@ function ProspectDrawer({ prospect, onClose }) {
 
   useEffect(() => {
     if (!prospect) return;
-    setAiData(null);
-    setLoading(true);
-    generateChainOfThought(prospect).then(data => {
-      setAiData(data);
+    
+    const runAi = async () => {
+      setAiData(null);
+      
+      const storedKey = sessionStorage.getItem('openai_api_key');
+      if (!storedKey) {
+        setAiData({ error: 'MISSING_API_KEY' });
+        return;
+      }
+
+      setLoading(true);
+      const data = await generateChainOfThought(prospect, storedKey);
+      
+      if (data && data.error === 'INVALID_API_KEY') {
+        sessionStorage.removeItem('openai_api_key');
+        setAiData({ error: 'INVALID_API_KEY' });
+      } else if (data) {
+        setAiData(data);
+      }
       setLoading(false);
-    });
+    };
+    
+    runAi();
   }, [prospect]);
+
+  const handleSaveApiKey = (e) => {
+    e.preventDefault();
+    const key = e.target.apiKey.value;
+    if (key) {
+      sessionStorage.setItem('openai_api_key', key);
+      // Re-trigger the effect by creating a shallow copy of prospect
+      setLoading(true);
+      setAiData(null);
+      generateChainOfThought(prospect, key).then(data => {
+        if (data && data.error === 'INVALID_API_KEY') {
+          sessionStorage.removeItem('openai_api_key');
+          setAiData({ error: 'INVALID_API_KEY' });
+        } else {
+          setAiData(data);
+        }
+        setLoading(false);
+      });
+    }
+  };
 
   // AI Agent Simulation State
   const [agentMode, setAgentMode] = useState(null); // 'compliance' | 'outreach' | null
@@ -231,8 +268,27 @@ function ProspectDrawer({ prospect, onClose }) {
               
               {loading ? (
                 <div style={{ color: '#00FF99', animation: 'pulse 1.5s infinite' }}>
-                  &gt; INITIATING NEURAL LINK TO GEMINI...<br/>
+                  &gt; INITIATING NEURAL LINK TO OPENAI GPT-4o-MINI...<br/>
                   &gt; FETCHING FIRMOGRAPHICS...
+                </div>
+              ) : aiData?.error ? (
+                <div style={{ marginTop: '15px' }}>
+                  <div style={{ color: 'var(--color-warning)', marginBottom: '10px', fontSize: '0.9rem' }}>
+                    {aiData.error === 'INVALID_API_KEY' ? '❌ Invalid OpenAI API Key. Please try again.' : '⚠️ OpenAI API Key Required (BYOK Mode)'}
+                  </div>
+                  <form onSubmit={handleSaveApiKey} style={{ display: 'flex', gap: '10px' }}>
+                    <input 
+                      type="password" 
+                      name="apiKey" 
+                      placeholder="sk-proj-..." 
+                      style={{ flex: 1, padding: '8px', background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', color: '#fff', borderRadius: '4px' }}
+                      required
+                    />
+                    <button type="submit" className="btn" style={{ padding: '8px 15px' }}>Connect AI</button>
+                  </form>
+                  <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.75rem', marginTop: '10px' }}>
+                    Your key is stored securely in temporary browser session memory and is never saved to the server.
+                  </div>
                 </div>
               ) : aiData ? (
                 aiData.reasoning.map((line, i) => (
@@ -242,7 +298,7 @@ function ProspectDrawer({ prospect, onClose }) {
                 <div style={{ color: 'var(--color-text-secondary)' }}>&gt; AWAITING AI DATA...</div>
               )}
               
-              {!loading && aiData && (
+              {!loading && aiData && !aiData.error && (
                 <div style={{ color: '#FFF', fontWeight: 'bold', marginTop: '10px' }}>&gt; RESULT: High Priority (Score: {prospect.aiScore || prospect.matchScore || 85})</div>
               )}
             </div>
