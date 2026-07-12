@@ -1,28 +1,39 @@
-import React from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, CartesianGrid } from 'recharts';
-import mockProspects from '../data/mockProspects.json';
+import { getProspects } from '../services/db';
 
 function Analytics() {
+  const [prospects, setProspects] = useState([]);
+
+  useEffect(() => {
+    async function load() {
+      const data = await getProspects();
+      setProspects(data || []);
+    }
+    load();
+  }, []);
+
   // Aggregate data from the synthesized prospects
-  const stageCounts = mockProspects.reduce((acc, p) => {
+  const stageCounts = useMemo(() => prospects.reduce((acc, p) => {
     acc[p.status || 'New'] = (acc[p.status || 'New'] || 0) + 1;
     return acc;
-  }, {});
+  }, {}), [prospects]);
 
-  const funnelData = Object.keys(stageCounts).map(stage => ({
+  const funnelData = useMemo(() => Object.keys(stageCounts).map(stage => ({
     name: stage,
     value: stageCounts[stage]
-  })).sort((a,b) => b.value - a.value);
+  })).sort((a,b) => b.value - a.value), [stageCounts]);
 
-  const industryData = mockProspects.reduce((acc, p) => {
-    acc[p.industry] = (acc[p.industry] || 0) + 1;
+  const industryData = useMemo(() => prospects.reduce((acc, p) => {
+    const ind = p.industry || p.sector || 'Unknown';
+    acc[ind] = (acc[ind] || 0) + 1;
     return acc;
-  }, {});
+  }, {}), [prospects]);
 
-  const pieData = Object.keys(industryData).map(ind => ({
+  const pieData = useMemo(() => Object.keys(industryData).map(ind => ({
     name: ind,
     value: industryData[ind]
-  }));
+  })), [industryData]);
 
   const COLORS = ['#00FFFF', '#0088AA', '#FF3366', '#FFBB00', '#00FF99', '#AA00FF'];
 
@@ -33,18 +44,18 @@ function Analytics() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '30px' }}>
         <div className="card">
           <div className="card-title">Total Active Prospects</div>
-          <div className="metric-value">{mockProspects.length}</div>
+          <div className="metric-value">{prospects.length}</div>
         </div>
         <div className="card">
           <div className="card-title">Avg AI Match Score</div>
           <div className="metric-value">
-            {Math.round(mockProspects.reduce((sum, p) => sum + p.aiScore, 0) / mockProspects.length)}
+            {prospects.length > 0 ? Math.round(prospects.reduce((sum, p) => sum + (p.aiScore || p.matchScore || 0), 0) / prospects.length) : 0}
           </div>
         </div>
         <div className="card">
           <div className="card-title">Projected Pipeline Value</div>
           <div className="metric-value">
-            ${mockProspects.reduce((sum, p) => sum + (p.annualRevenue * 0.05), 0).toFixed(1)}M
+            ${prospects.length > 0 ? prospects.reduce((sum, p) => sum + (parseFloat(p.annualRevenue || p.turnover || 0) * 0.05), 0).toFixed(1) : '0.0'}M
           </div>
         </div>
       </div>
