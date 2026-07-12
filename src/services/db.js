@@ -3,6 +3,7 @@ import { getFirestore, collection, getDocs, setDoc, updateDoc, doc } from 'fireb
 import { getAuth } from 'firebase/auth';
 import mockData from '../data/mockProspects.json';
 import realScrapedData from '../data/realScrapedProspects.json';
+import generated200 from '../data/generated200.json';
 
 // Apply Live Firebase Config
 const firebaseConfig = {
@@ -39,8 +40,8 @@ export const getProspects = async () => {
     status: 'New' // Force UAT fresh state
   }));
   
-  // Combine the original 50 baseline with the 5 newly ingested real companies
-  return [...safeData, ...realScrapedData];
+  // Combine all sources: 50 original + 5 real + 200 bulk generated
+  return [...safeData, ...realScrapedData, ...generated200];
 };
 
 export const updateProspectStage = async (id, newStage) => {

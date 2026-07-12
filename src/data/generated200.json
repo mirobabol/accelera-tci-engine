@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "99900001",
+    "companyName": "TechDrev k.s.",
+    "headquarters": "Street 48, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 49082713,
+    "employees": 262,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 58,
+    "aps": 89
+  },
+  {
+    "id": "99900002",
+    "companyName": "ZemplinChem s.r.o.",
+    "headquarters": "Street 45, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 6385074,
+    "employees": 340,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 51,
+    "aps": 54
+  },
+  {
+    "id": "99900003",
+    "companyName": "OravaStroj a.s.",
+    "headquarters": "Street 37, City, Czechia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 5380319,
+    "employees": 381,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 76,
+    "aps": 86
+  },
+  {
+    "id": "99900004",
+    "companyName": "ZemplinSiet a.s.",
+    "headquarters": "Street 39, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 23813868,
+    "employees": 25,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 69,
+    "aps": 77
+  },
+  {
+    "id": "99900005",
+    "companyName": "LiptovEnergo a.s.",
+    "headquarters": "Street 37, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 61317096,
+    "employees": 14,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 78,
+    "aps": 50
+  },
+  {
+    "id": "99900006",
+    "companyName": "DanubeData a.s.",
+    "headquarters": "Street 67, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 12712657,
+    "employees": 82,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 52,
+    "aps": 61
+  },
+  {
+    "id": "99900007",
+    "companyName": "AgroAuto a.s.",
+    "headquarters": "Street 2, City, Poland",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 48830236,
+    "employees": 52,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 70,
+    "aps": 59
+  },
+  {
+    "id": "99900008",
+    "companyName": "DanubeKov k.s.",
+    "headquarters": "Street 87, City, Poland",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 95776407,
+    "employees": 120,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 69,
+    "aps": 53
+  },
+  {
+    "id": "99900009",
+    "companyName": "DanubeAuto a.s.",
+    "headquarters": "Street 70, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 80750129,
+    "employees": 204,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 59,
+    "aps": 82
+  },
+  {
+    "id": "99900010",
+    "companyName": "ZemplinKov k.s.",
+    "headquarters": "Street 37, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 4216881,
+    "employees": 368,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 82,
+    "aps": 89
+  },
+  {
+    "id": "99900011",
+    "companyName": "SlovDrev k.s.",
+    "headquarters": "Street 89, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 47427442,
+    "employees": 180,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 81,
+    "aps": 87
+  },
+  {
+    "id": "99900012",
+    "companyName": "VahStroj k.s.",
+    "headquarters": "Street 22, City, Czechia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 56024874,
+    "employees": 327,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 85,
+    "aps": 55
+  },
+  {
+    "id": "99900013",
+    "companyName": "LiptovEnergo s.r.o.",
+    "headquarters": "Street 5, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 24277637,
+    "employees": 190,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 75,
+    "aps": 82
+  },
+  {
+    "id": "99900014",
+    "companyName": "StavEnergo k.s.",
+    "headquarters": "Street 95, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 73295464,
+    "employees": 145,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 69,
+    "aps": 72
+  },
+  {
+    "id": "99900015",
+    "companyName": "TatranChem s.r.o.",
+    "headquarters": "Street 96, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 27065800,
+    "employees": 186,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 82,
+    "aps": 67
+  },
+  {
+    "id": "99900016",
+    "companyName": "SpisKov a.s.",
+    "headquarters": "Street 99, City, Czechia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 72353469,
+    "employees": 209,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 56,
+    "aps": 61
+  },
+  {
+    "id": "99900017",
+    "companyName": "SlovStroj k.s.",
+    "headquarters": "Street 37, City, Poland",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 28338783,
+    "employees": 39,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 81,
+    "aps": 58
+  },
+  {
+    "id": "99900018",
+    "companyName": "DanubeChem a.s.",
+    "headquarters": "Street 68, City, Czechia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 2308518,
+    "employees": 146,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 50,
+    "aps": 76
+  },
+  {
+    "id": "99900019",
+    "companyName": "StavData s.r.o.",
+    "headquarters": "Street 29, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 97815625,
+    "employees": 50,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 86,
+    "aps": 79
+  },
+  {
+    "id": "99900020",
+    "companyName": "AgroData s.r.o.",
+    "headquarters": "Street 86, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 36155516,
+    "employees": 288,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 52,
+    "aps": 78
+  },
+  {
+    "id": "99900021",
+    "companyName": "SlovAuto k.s.",
+    "headquarters": "Street 0, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 56705589,
+    "employees": 156,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 70,
+    "aps": 77
+  },
+  {
+    "id": "99900022",
+    "companyName": "VahAuto k.s.",
+    "headquarters": "Street 46, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 22464767,
+    "employees": 350,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 63,
+    "aps": 54
+  },
+  {
+    "id": "99900023",
+    "companyName": "ZemplinEnergo k.s.",
+    "headquarters": "Street 5, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 91921974,
+    "employees": 445,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 84,
+    "aps": 62
+  },
+  {
+    "id": "99900024",
+    "companyName": "LiptovEko s.r.o.",
+    "headquarters": "Street 97, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 79100285,
+    "employees": 158,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 71,
+    "aps": 74
+  },
+  {
+    "id": "99900025",
+    "companyName": "SpisEnergo s.r.o.",
+    "headquarters": "Street 26, City, Czechia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 79057362,
+    "employees": 67,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 53,
+    "aps": 58
+  },
+  {
+    "id": "99900026",
+    "companyName": "LiptovKov k.s.",
+    "headquarters": "Street 55, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 5734657,
+    "employees": 488,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 88,
+    "aps": 74
+  },
+  {
+    "id": "99900027",
+    "companyName": "SpisEnergo k.s.",
+    "headquarters": "Street 26, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 53801313,
+    "employees": 269,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 62,
+    "aps": 78
+  },
+  {
+    "id": "99900028",
+    "companyName": "VahEnergo k.s.",
+    "headquarters": "Street 84, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 48925267,
+    "employees": 15,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 86,
+    "aps": 59
+  },
+  {
+    "id": "99900029",
+    "companyName": "TatranSiet a.s.",
+    "headquarters": "Street 28, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 43620893,
+    "employees": 176,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 64
+  },
+  {
+    "id": "99900030",
+    "companyName": "DanubeEko s.r.o.",
+    "headquarters": "Street 5, City, Czechia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 71670700,
+    "employees": 17,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 54,
+    "aps": 84
+  },
+  {
+    "id": "99900031",
+    "companyName": "TechAuto a.s.",
+    "headquarters": "Street 68, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 77268763,
+    "employees": 486,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 65,
+    "aps": 78
+  },
+  {
+    "id": "99900032",
+    "companyName": "TatranEnergo k.s.",
+    "headquarters": "Street 0, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 81695458,
+    "employees": 43,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 60,
+    "aps": 78
+  },
+  {
+    "id": "99900033",
+    "companyName": "TechEko s.r.o.",
+    "headquarters": "Street 65, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 93165395,
+    "employees": 32,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 79,
+    "aps": 84
+  },
+  {
+    "id": "99900034",
+    "companyName": "OravaStroj a.s.",
+    "headquarters": "Street 93, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 88915024,
+    "employees": 453,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 59,
+    "aps": 77
+  },
+  {
+    "id": "99900035",
+    "companyName": "TatranEko a.s.",
+    "headquarters": "Street 29, City, Poland",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 71353207,
+    "employees": 37,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 80,
+    "aps": 55
+  },
+  {
+    "id": "99900036",
+    "companyName": "VahDrev a.s.",
+    "headquarters": "Street 39, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 46464426,
+    "employees": 221,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 77,
+    "aps": 78
+  },
+  {
+    "id": "99900037",
+    "companyName": "SlovEnergo s.r.o.",
+    "headquarters": "Street 27, City, Poland",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 35141410,
+    "employees": 384,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 56,
+    "aps": 72
+  },
+  {
+    "id": "99900038",
+    "companyName": "LiptovEnergo a.s.",
+    "headquarters": "Street 31, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 22174549,
+    "employees": 167,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 67
+  },
+  {
+    "id": "99900039",
+    "companyName": "LiptovAuto k.s.",
+    "headquarters": "Street 63, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 61840963,
+    "employees": 27,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 73,
+    "aps": 88
+  },
+  {
+    "id": "99900040",
+    "companyName": "DanubeEko s.r.o.",
+    "headquarters": "Street 23, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 96063491,
+    "employees": 18,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 57,
+    "aps": 61
+  },
+  {
+    "id": "99900041",
+    "companyName": "TatranEnergo s.r.o.",
+    "headquarters": "Street 75, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 72866167,
+    "employees": 170,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 76,
+    "aps": 68
+  },
+  {
+    "id": "99900042",
+    "companyName": "SlovKov k.s.",
+    "headquarters": "Street 64, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 15786719,
+    "employees": 261,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 58,
+    "aps": 79
+  },
+  {
+    "id": "99900043",
+    "companyName": "ZemplinEnergo k.s.",
+    "headquarters": "Street 41, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 73104853,
+    "employees": 216,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 85,
+    "aps": 54
+  },
+  {
+    "id": "99900044",
+    "companyName": "LiptovEko k.s.",
+    "headquarters": "Street 37, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 28038674,
+    "employees": 360,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 88,
+    "aps": 61
+  },
+  {
+    "id": "99900045",
+    "companyName": "LiptovStroj k.s.",
+    "headquarters": "Street 54, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 91996266,
+    "employees": 266,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 75,
+    "aps": 77
+  },
+  {
+    "id": "99900046",
+    "companyName": "TechChem k.s.",
+    "headquarters": "Street 1, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 14144331,
+    "employees": 466,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 78,
+    "aps": 80
+  },
+  {
+    "id": "99900047",
+    "companyName": "DanubeEko k.s.",
+    "headquarters": "Street 11, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 7332582,
+    "employees": 165,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 51,
+    "aps": 83
+  },
+  {
+    "id": "99900048",
+    "companyName": "TatranSiet a.s.",
+    "headquarters": "Street 73, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 47928085,
+    "employees": 390,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 56
+  },
+  {
+    "id": "99900049",
+    "companyName": "VahSiet k.s.",
+    "headquarters": "Street 37, City, Czechia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 42997868,
+    "employees": 467,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 70,
+    "aps": 53
+  },
+  {
+    "id": "99900050",
+    "companyName": "TatranEnergo a.s.",
+    "headquarters": "Street 25, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 89602570,
+    "employees": 44,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 67,
+    "aps": 83
+  },
+  {
+    "id": "99900051",
+    "companyName": "TatranData s.r.o.",
+    "headquarters": "Street 14, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 64906925,
+    "employees": 292,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 50,
+    "aps": 52
+  },
+  {
+    "id": "99900052",
+    "companyName": "SpisStroj a.s.",
+    "headquarters": "Street 42, City, Poland",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 89255772,
+    "employees": 440,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 63,
+    "aps": 81
+  },
+  {
+    "id": "99900053",
+    "companyName": "SpisStroj s.r.o.",
+    "headquarters": "Street 94, City, Poland",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 45529532,
+    "employees": 421,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 83
+  },
+  {
+    "id": "99900054",
+    "companyName": "LiptovData a.s.",
+    "headquarters": "Street 83, City, Czechia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 10039906,
+    "employees": 366,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 66,
+    "aps": 89
+  },
+  {
+    "id": "99900055",
+    "companyName": "SlovEnergo k.s.",
+    "headquarters": "Street 3, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 22050210,
+    "employees": 241,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 78,
+    "aps": 84
+  },
+  {
+    "id": "99900056",
+    "companyName": "ZemplinStroj a.s.",
+    "headquarters": "Street 72, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 74089967,
+    "employees": 155,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 75,
+    "aps": 58
+  },
+  {
+    "id": "99900057",
+    "companyName": "AgroDrev a.s.",
+    "headquarters": "Street 36, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 44381089,
+    "employees": 223,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 71,
+    "aps": 56
+  },
+  {
+    "id": "99900058",
+    "companyName": "VahAuto a.s.",
+    "headquarters": "Street 83, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 4143446,
+    "employees": 198,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 58,
+    "aps": 83
+  },
+  {
+    "id": "99900059",
+    "companyName": "SpisData s.r.o.",
+    "headquarters": "Street 81, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 62978659,
+    "employees": 276,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 85,
+    "aps": 78
+  },
+  {
+    "id": "99900060",
+    "companyName": "AgroDrev a.s.",
+    "headquarters": "Street 14, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 5725379,
+    "employees": 312,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 63,
+    "aps": 81
+  },
+  {
+    "id": "99900061",
+    "companyName": "TatranDrev k.s.",
+    "headquarters": "Street 61, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 7260102,
+    "employees": 300,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 72,
+    "aps": 77
+  },
+  {
+    "id": "99900062",
+    "companyName": "TechKov k.s.",
+    "headquarters": "Street 60, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 80126929,
+    "employees": 11,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 63,
+    "aps": 50
+  },
+  {
+    "id": "99900063",
+    "companyName": "TatranStroj s.r.o.",
+    "headquarters": "Street 51, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 70485039,
+    "employees": 379,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 55,
+    "aps": 72
+  },
+  {
+    "id": "99900064",
+    "companyName": "OravaSiet k.s.",
+    "headquarters": "Street 73, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 19218611,
+    "employees": 171,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 60,
+    "aps": 78
+  },
+  {
+    "id": "99900065",
+    "companyName": "OravaEko k.s.",
+    "headquarters": "Street 58, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 4370617,
+    "employees": 447,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 51,
+    "aps": 61
+  },
+  {
+    "id": "99900066",
+    "companyName": "DanubeEnergo a.s.",
+    "headquarters": "Street 48, City, Poland",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 13031296,
+    "employees": 133,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 79,
+    "aps": 74
+  },
+  {
+    "id": "99900067",
+    "companyName": "ZemplinChem k.s.",
+    "headquarters": "Street 20, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 97253253,
+    "employees": 362,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 51,
+    "aps": 59
+  },
+  {
+    "id": "99900068",
+    "companyName": "ZemplinEnergo a.s.",
+    "headquarters": "Street 2, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 88567809,
+    "employees": 289,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 76,
+    "aps": 84
+  },
+  {
+    "id": "99900069",
+    "companyName": "StavEnergo s.r.o.",
+    "headquarters": "Street 48, City, Czechia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 26887508,
+    "employees": 95,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 66,
+    "aps": 83
+  },
+  {
+    "id": "99900070",
+    "companyName": "OravaData s.r.o.",
+    "headquarters": "Street 32, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 46019418,
+    "employees": 14,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 79,
+    "aps": 85
+  },
+  {
+    "id": "99900071",
+    "companyName": "DanubeEko s.r.o.",
+    "headquarters": "Street 57, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 7338099,
+    "employees": 40,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 86,
+    "aps": 60
+  },
+  {
+    "id": "99900072",
+    "companyName": "TatranSiet k.s.",
+    "headquarters": "Street 1, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 32472351,
+    "employees": 297,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 77,
+    "aps": 60
+  },
+  {
+    "id": "99900073",
+    "companyName": "TechChem s.r.o.",
+    "headquarters": "Street 16, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 33058700,
+    "employees": 327,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 79,
+    "aps": 73
+  },
+  {
+    "id": "99900074",
+    "companyName": "LiptovEnergo s.r.o.",
+    "headquarters": "Street 75, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 2929046,
+    "employees": 460,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 65,
+    "aps": 81
+  },
+  {
+    "id": "99900075",
+    "companyName": "StavChem s.r.o.",
+    "headquarters": "Street 61, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 64459759,
+    "employees": 462,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 60,
+    "aps": 54
+  },
+  {
+    "id": "99900076",
+    "companyName": "AgroStroj k.s.",
+    "headquarters": "Street 76, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 7692641,
+    "employees": 509,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 74,
+    "aps": 79
+  },
+  {
+    "id": "99900077",
+    "companyName": "OravaDrev k.s.",
+    "headquarters": "Street 75, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 3368609,
+    "employees": 423,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 86,
+    "aps": 78
+  },
+  {
+    "id": "99900078",
+    "companyName": "LiptovKov k.s.",
+    "headquarters": "Street 85, City, Czechia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 51981555,
+    "employees": 185,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 70,
+    "aps": 60
+  },
+  {
+    "id": "99900079",
+    "companyName": "SpisSiet k.s.",
+    "headquarters": "Street 97, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 39998812,
+    "employees": 380,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 57
+  },
+  {
+    "id": "99900080",
+    "companyName": "SlovDrev s.r.o.",
+    "headquarters": "Street 57, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 68998592,
+    "employees": 415,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 72,
+    "aps": 83
+  },
+  {
+    "id": "99900081",
+    "companyName": "TatranAuto s.r.o.",
+    "headquarters": "Street 76, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 29056850,
+    "employees": 498,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 54,
+    "aps": 62
+  },
+  {
+    "id": "99900082",
+    "companyName": "TatranSiet a.s.",
+    "headquarters": "Street 15, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 27479551,
+    "employees": 147,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 79,
+    "aps": 60
+  },
+  {
+    "id": "99900083",
+    "companyName": "SpisEnergo s.r.o.",
+    "headquarters": "Street 33, City, Poland",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 32121888,
+    "employees": 216,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 77,
+    "aps": 54
+  },
+  {
+    "id": "99900084",
+    "companyName": "LiptovSiet a.s.",
+    "headquarters": "Street 16, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 92301314,
+    "employees": 413,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 73,
+    "aps": 85
+  },
+  {
+    "id": "99900085",
+    "companyName": "ZemplinEko s.r.o.",
+    "headquarters": "Street 64, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 33174022,
+    "employees": 228,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 70,
+    "aps": 82
+  },
+  {
+    "id": "99900086",
+    "companyName": "OravaEnergo s.r.o.",
+    "headquarters": "Street 96, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 35469268,
+    "employees": 465,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 87,
+    "aps": 86
+  },
+  {
+    "id": "99900087",
+    "companyName": "LiptovEko s.r.o.",
+    "headquarters": "Street 31, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 45909364,
+    "employees": 37,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 61,
+    "aps": 84
+  },
+  {
+    "id": "99900088",
+    "companyName": "LiptovChem k.s.",
+    "headquarters": "Street 43, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 34077685,
+    "employees": 506,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 63,
+    "aps": 61
+  },
+  {
+    "id": "99900089",
+    "companyName": "AgroSiet a.s.",
+    "headquarters": "Street 49, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 40847012,
+    "employees": 509,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 65,
+    "aps": 64
+  },
+  {
+    "id": "99900090",
+    "companyName": "StavStroj k.s.",
+    "headquarters": "Street 66, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 6691625,
+    "employees": 433,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 58,
+    "aps": 88
+  },
+  {
+    "id": "99900091",
+    "companyName": "OravaDrev k.s.",
+    "headquarters": "Street 91, City, Czechia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 14939386,
+    "employees": 399,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 56,
+    "aps": 65
+  },
+  {
+    "id": "99900092",
+    "companyName": "StavChem s.r.o.",
+    "headquarters": "Street 2, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 12697514,
+    "employees": 236,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 70
+  },
+  {
+    "id": "99900093",
+    "companyName": "StavKov s.r.o.",
+    "headquarters": "Street 78, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 66486847,
+    "employees": 252,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 63,
+    "aps": 72
+  },
+  {
+    "id": "99900094",
+    "companyName": "OravaAuto s.r.o.",
+    "headquarters": "Street 82, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 39147073,
+    "employees": 94,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 52,
+    "aps": 76
+  },
+  {
+    "id": "99900095",
+    "companyName": "LiptovData s.r.o.",
+    "headquarters": "Street 51, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 50391263,
+    "employees": 387,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 55,
+    "aps": 65
+  },
+  {
+    "id": "99900096",
+    "companyName": "SlovSiet a.s.",
+    "headquarters": "Street 90, City, Poland",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 75362080,
+    "employees": 418,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 58
+  },
+  {
+    "id": "99900097",
+    "companyName": "OravaData k.s.",
+    "headquarters": "Street 64, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 38149459,
+    "employees": 370,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 85,
+    "aps": 87
+  },
+  {
+    "id": "99900098",
+    "companyName": "DanubeAuto s.r.o.",
+    "headquarters": "Street 62, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 55769651,
+    "employees": 270,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 50
+  },
+  {
+    "id": "99900099",
+    "companyName": "StavKov s.r.o.",
+    "headquarters": "Street 48, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 28562901,
+    "employees": 433,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 66,
+    "aps": 65
+  },
+  {
+    "id": "99900100",
+    "companyName": "TatranEko k.s.",
+    "headquarters": "Street 93, City, Poland",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 36365581,
+    "employees": 167,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 74,
+    "aps": 85
+  },
+  {
+    "id": "99900101",
+    "companyName": "DanubeEko a.s.",
+    "headquarters": "Street 7, City, Poland",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 97660851,
+    "employees": 194,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 64,
+    "aps": 77
+  },
+  {
+    "id": "99900102",
+    "companyName": "SlovChem k.s.",
+    "headquarters": "Street 13, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 36882564,
+    "employees": 261,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 74,
+    "aps": 75
+  },
+  {
+    "id": "99900103",
+    "companyName": "AgroEko a.s.",
+    "headquarters": "Street 9, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 14306533,
+    "employees": 77,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 64,
+    "aps": 68
+  },
+  {
+    "id": "99900104",
+    "companyName": "DanubeStroj s.r.o.",
+    "headquarters": "Street 9, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 76165704,
+    "employees": 342,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 62,
+    "aps": 52
+  },
+  {
+    "id": "99900105",
+    "companyName": "ZemplinChem a.s.",
+    "headquarters": "Street 66, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 11958370,
+    "employees": 207,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 51,
+    "aps": 53
+  },
+  {
+    "id": "99900106",
+    "companyName": "DanubeKov k.s.",
+    "headquarters": "Street 43, City, Czechia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 91751580,
+    "employees": 213,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 65,
+    "aps": 61
+  },
+  {
+    "id": "99900107",
+    "companyName": "DanubeDrev a.s.",
+    "headquarters": "Street 8, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 45094214,
+    "employees": 126,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 62,
+    "aps": 84
+  },
+  {
+    "id": "99900108",
+    "companyName": "StavData k.s.",
+    "headquarters": "Street 43, City, Czechia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 60396962,
+    "employees": 134,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 84
+  },
+  {
+    "id": "99900109",
+    "companyName": "OravaKov a.s.",
+    "headquarters": "Street 72, City, Poland",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 78506078,
+    "employees": 267,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 67,
+    "aps": 75
+  },
+  {
+    "id": "99900110",
+    "companyName": "ZemplinAuto k.s.",
+    "headquarters": "Street 83, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 32672300,
+    "employees": 282,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 73,
+    "aps": 78
+  },
+  {
+    "id": "99900111",
+    "companyName": "LiptovChem k.s.",
+    "headquarters": "Street 11, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 58542839,
+    "employees": 292,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 87,
+    "aps": 79
+  },
+  {
+    "id": "99900112",
+    "companyName": "SpisDrev k.s.",
+    "headquarters": "Street 11, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 19889922,
+    "employees": 161,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 82,
+    "aps": 58
+  },
+  {
+    "id": "99900113",
+    "companyName": "StavData k.s.",
+    "headquarters": "Street 35, City, Poland",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 23078255,
+    "employees": 263,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 54
+  },
+  {
+    "id": "99900114",
+    "companyName": "AgroAuto a.s.",
+    "headquarters": "Street 26, City, Czechia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 80218877,
+    "employees": 54,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 81,
+    "aps": 53
+  },
+  {
+    "id": "99900115",
+    "companyName": "DanubeStroj k.s.",
+    "headquarters": "Street 8, City, Poland",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 18218569,
+    "employees": 15,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 89,
+    "aps": 85
+  },
+  {
+    "id": "99900116",
+    "companyName": "LiptovEko s.r.o.",
+    "headquarters": "Street 44, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 73600229,
+    "employees": 97,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 87,
+    "aps": 74
+  },
+  {
+    "id": "99900117",
+    "companyName": "SlovSiet k.s.",
+    "headquarters": "Street 79, City, Poland",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 22875533,
+    "employees": 301,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 75,
+    "aps": 55
+  },
+  {
+    "id": "99900118",
+    "companyName": "OravaAuto k.s.",
+    "headquarters": "Street 95, City, Czechia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 75968739,
+    "employees": 74,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 88,
+    "aps": 69
+  },
+  {
+    "id": "99900119",
+    "companyName": "StavEko a.s.",
+    "headquarters": "Street 53, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 33883196,
+    "employees": 432,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 82,
+    "aps": 89
+  },
+  {
+    "id": "99900120",
+    "companyName": "VahEnergo s.r.o.",
+    "headquarters": "Street 13, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 65663737,
+    "employees": 337,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 70,
+    "aps": 54
+  },
+  {
+    "id": "99900121",
+    "companyName": "TatranChem s.r.o.",
+    "headquarters": "Street 53, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 48445042,
+    "employees": 460,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 86,
+    "aps": 50
+  },
+  {
+    "id": "99900122",
+    "companyName": "ZemplinDrev s.r.o.",
+    "headquarters": "Street 82, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 72380053,
+    "employees": 14,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 62,
+    "aps": 79
+  },
+  {
+    "id": "99900123",
+    "companyName": "VahDrev s.r.o.",
+    "headquarters": "Street 69, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 68447110,
+    "employees": 490,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 71,
+    "aps": 70
+  },
+  {
+    "id": "99900124",
+    "companyName": "SlovAuto s.r.o.",
+    "headquarters": "Street 73, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 80586481,
+    "employees": 488,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 55,
+    "aps": 78
+  },
+  {
+    "id": "99900125",
+    "companyName": "TatranKov a.s.",
+    "headquarters": "Street 19, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 14430648,
+    "employees": 66,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 82,
+    "aps": 64
+  },
+  {
+    "id": "99900126",
+    "companyName": "AgroKov a.s.",
+    "headquarters": "Street 82, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 27347455,
+    "employees": 271,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 59
+  },
+  {
+    "id": "99900127",
+    "companyName": "SlovDrev a.s.",
+    "headquarters": "Street 58, City, Czechia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 24123469,
+    "employees": 302,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 81,
+    "aps": 76
+  },
+  {
+    "id": "99900128",
+    "companyName": "AgroDrev k.s.",
+    "headquarters": "Street 96, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 45163148,
+    "employees": 61,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 65,
+    "aps": 69
+  },
+  {
+    "id": "99900129",
+    "companyName": "OravaData a.s.",
+    "headquarters": "Street 76, City, Czechia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 41173473,
+    "employees": 329,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 65,
+    "aps": 82
+  },
+  {
+    "id": "99900130",
+    "companyName": "OravaDrev a.s.",
+    "headquarters": "Street 23, City, Czechia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 90525753,
+    "employees": 253,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 82,
+    "aps": 84
+  },
+  {
+    "id": "99900131",
+    "companyName": "TechEko k.s.",
+    "headquarters": "Street 85, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 11747445,
+    "employees": 300,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 83,
+    "aps": 86
+  },
+  {
+    "id": "99900132",
+    "companyName": "VahEnergo a.s.",
+    "headquarters": "Street 47, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 85198987,
+    "employees": 432,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 50,
+    "aps": 75
+  },
+  {
+    "id": "99900133",
+    "companyName": "DanubeDrev a.s.",
+    "headquarters": "Street 13, City, Czechia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 47727463,
+    "employees": 375,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 80,
+    "aps": 63
+  },
+  {
+    "id": "99900134",
+    "companyName": "OravaSiet s.r.o.",
+    "headquarters": "Street 8, City, Poland",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 58161628,
+    "employees": 314,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 53
+  },
+  {
+    "id": "99900135",
+    "companyName": "ZemplinData k.s.",
+    "headquarters": "Street 37, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 68213250,
+    "employees": 187,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 58
+  },
+  {
+    "id": "99900136",
+    "companyName": "OravaAuto a.s.",
+    "headquarters": "Street 8, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 95071269,
+    "employees": 336,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 59,
+    "aps": 64
+  },
+  {
+    "id": "99900137",
+    "companyName": "AgroDrev a.s.",
+    "headquarters": "Street 62, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 37373882,
+    "employees": 200,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 70,
+    "aps": 52
+  },
+  {
+    "id": "99900138",
+    "companyName": "StavKov a.s.",
+    "headquarters": "Street 97, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 80673019,
+    "employees": 163,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 63,
+    "aps": 82
+  },
+  {
+    "id": "99900139",
+    "companyName": "StavKov k.s.",
+    "headquarters": "Street 45, City, Czechia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 73734619,
+    "employees": 492,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 58,
+    "aps": 67
+  },
+  {
+    "id": "99900140",
+    "companyName": "SlovAuto k.s.",
+    "headquarters": "Street 87, City, Czechia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 85939251,
+    "employees": 414,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 89,
+    "aps": 55
+  },
+  {
+    "id": "99900141",
+    "companyName": "ZemplinEko s.r.o.",
+    "headquarters": "Street 80, City, Poland",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 3845306,
+    "employees": 322,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 81,
+    "aps": 56
+  },
+  {
+    "id": "99900142",
+    "companyName": "SpisEnergo s.r.o.",
+    "headquarters": "Street 6, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 25527149,
+    "employees": 330,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 75,
+    "aps": 71
+  },
+  {
+    "id": "99900143",
+    "companyName": "TatranEko k.s.",
+    "headquarters": "Street 40, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 67683901,
+    "employees": 44,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 86,
+    "aps": 81
+  },
+  {
+    "id": "99900144",
+    "companyName": "LiptovEko s.r.o.",
+    "headquarters": "Street 7, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 68789421,
+    "employees": 149,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 55,
+    "aps": 74
+  },
+  {
+    "id": "99900145",
+    "companyName": "ZemplinKov k.s.",
+    "headquarters": "Street 55, City, Czechia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 95763071,
+    "employees": 189,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 52,
+    "aps": 53
+  },
+  {
+    "id": "99900146",
+    "companyName": "LiptovAuto s.r.o.",
+    "headquarters": "Street 72, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 22814244,
+    "employees": 293,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 86,
+    "aps": 85
+  },
+  {
+    "id": "99900147",
+    "companyName": "StavKov a.s.",
+    "headquarters": "Street 75, City, Czechia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 3489285,
+    "employees": 165,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 52,
+    "aps": 65
+  },
+  {
+    "id": "99900148",
+    "companyName": "SlovAuto a.s.",
+    "headquarters": "Street 94, City, Poland",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 26811811,
+    "employees": 401,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 60,
+    "aps": 70
+  },
+  {
+    "id": "99900149",
+    "companyName": "TechData a.s.",
+    "headquarters": "Street 3, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 83063266,
+    "employees": 130,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 66,
+    "aps": 88
+  },
+  {
+    "id": "99900150",
+    "companyName": "TatranSiet a.s.",
+    "headquarters": "Street 64, City, Poland",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 93575992,
+    "employees": 263,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 70,
+    "aps": 79
+  },
+  {
+    "id": "99900151",
+    "companyName": "DanubeSiet s.r.o.",
+    "headquarters": "Street 47, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 12472839,
+    "employees": 79,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 88,
+    "aps": 81
+  },
+  {
+    "id": "99900152",
+    "companyName": "StavChem s.r.o.",
+    "headquarters": "Street 6, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 12011325,
+    "employees": 399,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 82,
+    "aps": 85
+  },
+  {
+    "id": "99900153",
+    "companyName": "VahChem k.s.",
+    "headquarters": "Street 33, City, Poland",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 70906826,
+    "employees": 128,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 76,
+    "aps": 74
+  },
+  {
+    "id": "99900154",
+    "companyName": "VahKov k.s.",
+    "headquarters": "Street 62, City, Czechia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 92953429,
+    "employees": 218,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 79
+  },
+  {
+    "id": "99900155",
+    "companyName": "VahKov k.s.",
+    "headquarters": "Street 35, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 51537301,
+    "employees": 202,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 83,
+    "aps": 75
+  },
+  {
+    "id": "99900156",
+    "companyName": "VahKov k.s.",
+    "headquarters": "Street 8, City, Poland",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 5615356,
+    "employees": 389,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 62,
+    "aps": 70
+  },
+  {
+    "id": "99900157",
+    "companyName": "SpisStroj k.s.",
+    "headquarters": "Street 72, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 60363351,
+    "employees": 199,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 86,
+    "aps": 65
+  },
+  {
+    "id": "99900158",
+    "companyName": "ZemplinKov a.s.",
+    "headquarters": "Street 2, City, Czechia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 15842150,
+    "employees": 444,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 63,
+    "aps": 87
+  },
+  {
+    "id": "99900159",
+    "companyName": "AgroData a.s.",
+    "headquarters": "Street 27, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 53651598,
+    "employees": 481,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 56,
+    "aps": 67
+  },
+  {
+    "id": "99900160",
+    "companyName": "VahChem s.r.o.",
+    "headquarters": "Street 82, City, Poland",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 96324485,
+    "employees": 270,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 86,
+    "aps": 75
+  },
+  {
+    "id": "99900161",
+    "companyName": "TechEnergo a.s.",
+    "headquarters": "Street 50, City, Czechia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 2381184,
+    "employees": 156,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 74,
+    "aps": 77
+  },
+  {
+    "id": "99900162",
+    "companyName": "SlovSiet s.r.o.",
+    "headquarters": "Street 26, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 91555456,
+    "employees": 84,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 53,
+    "aps": 62
+  },
+  {
+    "id": "99900163",
+    "companyName": "AgroChem k.s.",
+    "headquarters": "Street 54, City, Czechia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 85010313,
+    "employees": 246,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 59,
+    "aps": 68
+  },
+  {
+    "id": "99900164",
+    "companyName": "SpisKov k.s.",
+    "headquarters": "Street 15, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 85302323,
+    "employees": 497,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 59,
+    "aps": 80
+  },
+  {
+    "id": "99900165",
+    "companyName": "SlovKov a.s.",
+    "headquarters": "Street 57, City, Poland",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 84750467,
+    "employees": 76,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 64,
+    "aps": 84
+  },
+  {
+    "id": "99900166",
+    "companyName": "TechAuto a.s.",
+    "headquarters": "Street 66, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 82403333,
+    "employees": 145,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 73,
+    "aps": 57
+  },
+  {
+    "id": "99900167",
+    "companyName": "OravaChem a.s.",
+    "headquarters": "Street 18, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 24839933,
+    "employees": 30,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 71,
+    "aps": 56
+  },
+  {
+    "id": "99900168",
+    "companyName": "TechEko k.s.",
+    "headquarters": "Street 52, City, Czechia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 20359900,
+    "employees": 315,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 87,
+    "aps": 58
+  },
+  {
+    "id": "99900169",
+    "companyName": "StavEnergo k.s.",
+    "headquarters": "Street 0, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 17611450,
+    "employees": 25,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 54,
+    "aps": 79
+  },
+  {
+    "id": "99900170",
+    "companyName": "OravaData a.s.",
+    "headquarters": "Street 43, City, Poland",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 47675948,
+    "employees": 217,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 87,
+    "aps": 67
+  },
+  {
+    "id": "99900171",
+    "companyName": "LiptovKov s.r.o.",
+    "headquarters": "Street 55, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 81729002,
+    "employees": 427,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 74,
+    "aps": 81
+  },
+  {
+    "id": "99900172",
+    "companyName": "SlovAuto k.s.",
+    "headquarters": "Street 83, City, Poland",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 56642415,
+    "employees": 420,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 76,
+    "aps": 77
+  },
+  {
+    "id": "99900173",
+    "companyName": "TatranSiet a.s.",
+    "headquarters": "Street 71, City, Slovakia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 33719948,
+    "employees": 143,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 89,
+    "aps": 66
+  },
+  {
+    "id": "99900174",
+    "companyName": "DanubeSiet k.s.",
+    "headquarters": "Street 4, City, Czechia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 20672378,
+    "employees": 474,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 86,
+    "aps": 58
+  },
+  {
+    "id": "99900175",
+    "companyName": "StavSiet k.s.",
+    "headquarters": "Street 73, City, Czechia",
+    "industry": "Manufacturing",
+    "sector": "General",
+    "annualRevenue": 6844999,
+    "employees": 476,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 75,
+    "aps": 64
+  },
+  {
+    "id": "99900176",
+    "companyName": "ZemplinKov s.r.o.",
+    "headquarters": "Street 22, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 17686492,
+    "employees": 469,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 85,
+    "aps": 78
+  },
+  {
+    "id": "99900177",
+    "companyName": "LiptovChem a.s.",
+    "headquarters": "Street 77, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 76418085,
+    "employees": 155,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 79,
+    "aps": 69
+  },
+  {
+    "id": "99900178",
+    "companyName": "TatranDrev s.r.o.",
+    "headquarters": "Street 84, City, Poland",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 7941865,
+    "employees": 100,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 83,
+    "aps": 53
+  },
+  {
+    "id": "99900179",
+    "companyName": "AgroKov s.r.o.",
+    "headquarters": "Street 91, City, Czechia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 87828347,
+    "employees": 158,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 57,
+    "aps": 72
+  },
+  {
+    "id": "99900180",
+    "companyName": "SlovEnergo s.r.o.",
+    "headquarters": "Street 22, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 82073374,
+    "employees": 49,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 52,
+    "aps": 82
+  },
+  {
+    "id": "99900181",
+    "companyName": "StavEko a.s.",
+    "headquarters": "Street 96, City, Czechia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 96134280,
+    "employees": 35,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 52,
+    "aps": 84
+  },
+  {
+    "id": "99900182",
+    "companyName": "VahSiet a.s.",
+    "headquarters": "Street 64, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 37556256,
+    "employees": 85,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 55,
+    "aps": 82
+  },
+  {
+    "id": "99900183",
+    "companyName": "LiptovAuto s.r.o.",
+    "headquarters": "Street 80, City, Poland",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 78886977,
+    "employees": 408,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 67,
+    "aps": 80
+  },
+  {
+    "id": "99900184",
+    "companyName": "DanubeDrev a.s.",
+    "headquarters": "Street 9, City, Slovakia",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 55104112,
+    "employees": 209,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 80,
+    "aps": 72
+  },
+  {
+    "id": "99900185",
+    "companyName": "SpisSiet k.s.",
+    "headquarters": "Street 58, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 42198746,
+    "employees": 46,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 83,
+    "aps": 81
+  },
+  {
+    "id": "99900186",
+    "companyName": "StavStroj s.r.o.",
+    "headquarters": "Street 42, City, Poland",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 41918613,
+    "employees": 137,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 57,
+    "aps": 86
+  },
+  {
+    "id": "99900187",
+    "companyName": "VahChem a.s.",
+    "headquarters": "Street 32, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 16669453,
+    "employees": 68,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 54,
+    "aps": 79
+  },
+  {
+    "id": "99900188",
+    "companyName": "TechEko k.s.",
+    "headquarters": "Street 46, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 89485631,
+    "employees": 310,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 62,
+    "aps": 74
+  },
+  {
+    "id": "99900189",
+    "companyName": "ZemplinDrev a.s.",
+    "headquarters": "Street 17, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 36551126,
+    "employees": 164,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 63,
+    "aps": 85
+  },
+  {
+    "id": "99900190",
+    "companyName": "TatranChem k.s.",
+    "headquarters": "Street 61, City, Slovakia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 91970534,
+    "employees": 433,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 68,
+    "aps": 52
+  },
+  {
+    "id": "99900191",
+    "companyName": "AgroKov k.s.",
+    "headquarters": "Street 20, City, Czechia",
+    "industry": "Healthcare",
+    "sector": "General",
+    "annualRevenue": 36077391,
+    "employees": 501,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 56,
+    "aps": 78
+  },
+  {
+    "id": "99900192",
+    "companyName": "AgroAuto a.s.",
+    "headquarters": "Street 86, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 89775334,
+    "employees": 237,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 60,
+    "aps": 61
+  },
+  {
+    "id": "99900193",
+    "companyName": "VahDrev a.s.",
+    "headquarters": "Street 51, City, Poland",
+    "industry": "Construction",
+    "sector": "General",
+    "annualRevenue": 76588777,
+    "employees": 185,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "Researched",
+    "aiScore": 81,
+    "aps": 65
+  },
+  {
+    "id": "99900194",
+    "companyName": "VahStroj s.r.o.",
+    "headquarters": "Street 95, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 88318405,
+    "employees": 275,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 89,
+    "aps": 75
+  },
+  {
+    "id": "99900195",
+    "companyName": "OravaKov k.s.",
+    "headquarters": "Street 1, City, Slovakia",
+    "industry": "Technology",
+    "sector": "General",
+    "annualRevenue": 78268894,
+    "employees": 72,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 52,
+    "aps": 58
+  },
+  {
+    "id": "99900196",
+    "companyName": "AgroData k.s.",
+    "headquarters": "Street 64, City, Slovakia",
+    "industry": "Retail",
+    "sector": "General",
+    "annualRevenue": 31923420,
+    "employees": 132,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 80,
+    "aps": 77
+  },
+  {
+    "id": "99900197",
+    "companyName": "LiptovSiet a.s.",
+    "headquarters": "Street 51, City, Slovakia",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 17046037,
+    "employees": 384,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 76,
+    "aps": 73
+  },
+  {
+    "id": "99900198",
+    "companyName": "TechData k.s.",
+    "headquarters": "Street 25, City, Slovakia",
+    "industry": "Logistics",
+    "sector": "General",
+    "annualRevenue": 49847721,
+    "employees": 165,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 85,
+    "aps": 67
+  },
+  {
+    "id": "99900199",
+    "companyName": "LiptovChem k.s.",
+    "headquarters": "Street 26, City, Slovakia",
+    "industry": "Automotive",
+    "sector": "General",
+    "annualRevenue": 97178082,
+    "employees": 241,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 73,
+    "aps": 77
+  },
+  {
+    "id": "99900200",
+    "companyName": "TatranChem a.s.",
+    "headquarters": "Street 38, City, Poland",
+    "industry": "Energy",
+    "sector": "General",
+    "annualRevenue": 76576685,
+    "employees": 121,
+    "signals": "Bulk Generated for UAT Pipeline",
+    "recentSignals": [
+      "Expansion into new markets",
+      "Increased R&D spending"
+    ],
+    "officers": [
+      "Jozef Mrkvicka"
+    ],
+    "status": "New",
+    "aiScore": 79,
+    "aps": 53
+  }
+]
