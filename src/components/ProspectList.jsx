@@ -79,26 +79,28 @@ function ProspectList() {
           </tr>
         </thead>
         <tbody>
-          {filtered.map(p => (
+          {filtered.map(p => {
+            const quadrant = p.aiScore > 85 ? 'Hot' : p.aiScore > 65 ? 'Nurture' : p.aiScore > 40 ? 'Opportunistic' : 'Deprioritize';
+            return (
             <tr key={p.id} style={{ borderBottom: '1px solid var(--color-bg-tertiary)', cursor: 'pointer' }} onClick={() => setSelectedProspect(p)}>
-              <td style={{ padding: '12px', fontWeight: '500', color: 'var(--color-text-primary)' }}>{p.name}</td>
-              <td style={{ padding: '12px', color: 'var(--color-text-secondary)' }}>{p.sector}</td>
-              <td style={{ padding: '12px', color: 'var(--color-text-secondary)' }}>{p.turnover}</td>
-              <td style={{ padding: '12px', color: 'var(--color-danger)' }}>{p.res}</td>
-              <td style={{ padding: '12px', color: 'var(--color-accent-primary)' }}>{p.aps}</td>
+              <td style={{ padding: '12px', fontWeight: '500', color: 'var(--color-text-primary)' }}>{p.companyName || p.name}</td>
+              <td style={{ padding: '12px', color: 'var(--color-text-secondary)' }}>{p.industry || p.sector}</td>
+              <td style={{ padding: '12px', color: 'var(--color-text-secondary)' }}>${p.annualRevenue}M</td>
+              <td style={{ padding: '12px', color: 'var(--color-danger)' }}>{p.res || (100 - Math.floor(p.aiScore / 2))}</td>
+              <td style={{ padding: '12px', color: 'var(--color-accent-primary)' }}>{p.aps || p.aiScore}</td>
               <td style={{ padding: '12px' }}>
                 <span style={{
                   padding: '4px 8px',
                   borderRadius: '12px',
                   fontSize: '0.8rem',
-                  backgroundColor: p.type === 'Hot' ? 'rgba(16, 185, 129, 0.1)' : 
-                                   p.type === 'Nurture' ? 'rgba(245, 158, 11, 0.1)' : 
-                                   p.type === 'Opportunistic' ? 'rgba(6, 182, 212, 0.1)' : 'rgba(239, 68, 68, 0.1)',
-                  color: p.type === 'Hot' ? 'var(--color-success)' : 
-                         p.type === 'Nurture' ? 'var(--color-warning)' : 
-                         p.type === 'Opportunistic' ? 'var(--color-accent-neon)' : 'var(--color-danger)',
+                  backgroundColor: quadrant === 'Hot' ? 'rgba(16, 185, 129, 0.1)' : 
+                                   quadrant === 'Nurture' ? 'rgba(245, 158, 11, 0.1)' : 
+                                   quadrant === 'Opportunistic' ? 'rgba(6, 182, 212, 0.1)' : 'rgba(239, 68, 68, 0.1)',
+                  color: quadrant === 'Hot' ? 'var(--color-success)' : 
+                         quadrant === 'Nurture' ? 'var(--color-warning)' : 
+                         quadrant === 'Opportunistic' ? 'var(--color-accent-neon)' : 'var(--color-danger)',
                 }}>
-                  {p.type}
+                  {quadrant}
                 </span>
               </td>
               <td style={{ padding: '12px' }}>
@@ -122,7 +124,8 @@ function ProspectList() {
                 </button>
               </td>
             </tr>
-          ))}
+            );
+          })}
         </tbody>
       </table>
       <ProspectDrawer prospect={selectedProspect} onClose={() => setSelectedProspect(null)} />
