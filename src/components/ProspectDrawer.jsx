@@ -66,6 +66,8 @@ function ProspectDrawer({ prospect, onClose }) {
     return "";
   };
 
+  if (!prospect) return null;
+
   return (
     <>
       {/* Backdrop overlay */}
