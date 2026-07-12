@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 // The user will replace these environment variables in Netlify / .env
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "stub_api_key",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "stub_auth_domain",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "stub_project_id",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "stub_storage_bucket",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "stub_sender_id",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "stub_app_id"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDvy1RFjRjjTzTYViLmGXrp2tPB3C1AV2k",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "accelera-tci-150fc.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "accelera-tci-150fc",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "accelera-tci-150fc.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "686306636383",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:686306636383:web:6ea3b4d45bbdcb2658a1ea"
 };
 
 let app;

@@ -3,30 +3,26 @@ import { getFirestore, collection, getDocs, setDoc, updateDoc, doc } from 'fireb
 import { getAuth } from 'firebase/auth';
 import mockData from '../data/mockProspects.json';
 
-// TODO: Replace with real Firebase config from console
+// Apply Live Firebase Config
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "mock-key",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "mock-domain.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "mock-project",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "mock-project.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "000000000",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:0000000:web:000000"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDvy1RFjRjjTzTYViLmGXrp2tPB3C1AV2k",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "accelera-tci-150fc.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "accelera-tci-150fc",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "accelera-tci-150fc.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "686306636383",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:686306636383:web:6ea3b4d45bbdcb2658a1ea"
 };
 
-// Initialize Firebase only if keys exist, otherwise mock the DB connection
+// Initialize Firebase
 let app, db, auth;
-let isMockDB = true; // FORCE MOCK MODE 
+let isMockDB = false; // System is now fully live
 
 try {
-  if (firebaseConfig.apiKey !== "mock-key" && false) { // Skip Firebase init
-    app = initializeApp(firebaseConfig);
-    db = getFirestore(app);
-    auth = getAuth(app);
-    isMockDB = false;
-    console.log("Firebase Connected");
-  } else {
-    console.warn("Using Mock Database. Awaiting Firebase Keys.");
-  }
+  app = initializeApp(firebaseConfig);
+  db = getFirestore(app);
+  auth = getAuth(app);
+  isMockDB = false;
+  console.log("Firebase Connected");
 } catch (e) {
   console.error("Firebase Init Error:", e);
 }
