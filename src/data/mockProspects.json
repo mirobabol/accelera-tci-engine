@@ -1,0 +1,202 @@
+[
+  {
+    "id": "uuid1",
+    "companyName": "TechWave Innovations",
+    "industry": "SaaS",
+    "naceCode": "62.01",
+    "annualRevenue": 45,
+    "employeeCount": 250,
+    "headquarters": "San Francisco, CA, USA",
+    "status": "Researched",
+    "keyDecisionMaker": {
+      "name": "Alice Johnson",
+      "title": "CEO",
+      "linkedinProfile": "https://www.linkedin.com/in/alicejohnson"
+    },
+    "aiScore": 85,
+    "recentSignals": [
+      "Launched new AI product",
+      "Expanding to Europe"
+    ]
+  },
+  {
+    "id": "uuid2",
+    "companyName": "GreenLeaf Logistics",
+    "industry": "Logistics",
+    "naceCode": "52.29",
+    "annualRevenue": 120,
+    "employeeCount": 500,
+    "headquarters": "Hamburg, Germany",
+    "status": "New",
+    "keyDecisionMaker": {
+      "name": "Bernard Schmidt",
+      "title": "Managing Director",
+      "linkedinProfile": "https://www.linkedin.com/in/bernardschmidt"
+    },
+    "aiScore": 78,
+    "recentSignals": [
+      "Acquired a smaller competitor",
+      "Investing in green technology"
+    ]
+  },
+  {
+    "id": "uuid3",
+    "companyName": "HealthPlus Systems",
+    "industry": "Healthcare",
+    "naceCode": "86.90",
+    "annualRevenue": 300,
+    "employeeCount": 700,
+    "headquarters": "London, UK",
+    "status": "Contacted",
+    "keyDecisionMaker": {
+      "name": "Catherine Lee",
+      "title": "COO",
+      "linkedinProfile": "https://www.linkedin.com/in/catherinelee"
+    },
+    "aiScore": 92,
+    "recentSignals": [
+      "Opened new research facility",
+      "Partnered with a major hospital chain"
+    ]
+  },
+  {
+    "id": "uuid4",
+    "companyName": "FinEdge Solutions",
+    "industry": "Fintech",
+    "naceCode": "64.19",
+    "annualRevenue": 80,
+    "employeeCount": 200,
+    "headquarters": "New York City, NY, USA",
+    "status": "Meeting",
+    "keyDecisionMaker": {
+      "name": "Daniel Kim",
+      "title": "CFO",
+      "linkedinProfile": "https://www.linkedin.com/in/danielkim"
+    },
+    "aiScore": 88,
+    "recentSignals": [
+      "Just raised Series B",
+      "Hiring new CTO"
+    ]
+  },
+  {
+    "id": "uuid5",
+    "companyName": "EcoEnergy Corp",
+    "industry": "Renewable Energy",
+    "naceCode": "35.11",
+    "annualRevenue": 150,
+    "employeeCount": 350,
+    "headquarters": "Oslo, Norway",
+    "status": "Interested",
+    "keyDecisionMaker": {
+      "name": "Eva Lund",
+      "title": "VP of Operations",
+      "linkedinProfile": "https://www.linkedin.com/in/evalund"
+    },
+    "aiScore": 95,
+    "recentSignals": [
+      "Secured government contract",
+      "Expanding solar projects"
+    ]
+  },
+  {
+    "id": "uuid6",
+    "companyName": "RetailNext Innovations",
+    "industry": "Retail Tech",
+    "naceCode": "47.91",
+    "annualRevenue": 95,
+    "employeeCount": 400,
+    "headquarters": "Tokyo, Japan",
+    "status": "Offer Sent",
+    "keyDecisionMaker": {
+      "name": "Fumi Tanaka",
+      "title": "Chief Innovation Officer",
+      "linkedinProfile": "https://www.linkedin.com/in/fumitanaka"
+    },
+    "aiScore": 81,
+    "recentSignals": [
+      "Launching AI-driven sales platform",
+      "Entering US market"
+    ]
+  },
+  {
+    "id": "uuid7",
+    "companyName": "SafeGuard Cyber",
+    "industry": "Cybersecurity",
+    "naceCode": "62.02",
+    "annualRevenue": 70,
+    "employeeCount": 150,
+    "headquarters": "Tel Aviv, Israel",
+    "status": "Signed",
+    "keyDecisionMaker": {
+      "name": "Gabriel Cohen",
+      "title": "CTO",
+      "linkedinProfile": "https://www.linkedin.com/in/gabrielcohen"
+    },
+    "aiScore": 89,
+    "recentSignals": [
+      "Announced partnership with Fortune 500 company",
+      "Recognized as a leader in cybersecurity innovation"
+    ]
+  },
+  {
+    "id": "uuid8",
+    "companyName": "AgriTech Solutions",
+    "industry": "Agriculture Technology",
+    "naceCode": "01.61",
+    "annualRevenue": 60,
+    "employeeCount": 120,
+    "headquarters": "Bangalore, India",
+    "status": "Declined",
+    "keyDecisionMaker": {
+      "name": "Harish Patel",
+      "title": "Founder & CEO",
+      "linkedinProfile": "https://www.linkedin.com/in/harishpatel"
+    },
+    "aiScore": 74,
+    "recentSignals": [
+      "Launched new drone technology",
+      "Won national innovation award"
+    ]
+  },
+  {
+    "id": "uuid9",
+    "companyName": "EduFuture Group",
+    "industry": "EdTech",
+    "naceCode": "85.59",
+    "annualRevenue": 40,
+    "employeeCount": 100,
+    "headquarters": "Sydney, Australia",
+    "status": "Researched",
+    "keyDecisionMaker": {
+      "name": "Isabella Martinez",
+      "title": "Head of Strategy",
+      "linkedinProfile": "https://www.linkedin.com/in/isabellamartinez"
+    },
+    "aiScore": 76,
+    "recentSignals": [
+      "Partnering with universities",
+      "Launching virtual reality courses"
+    ]
+  },
+  {
+    "id": "uuid10",
+    "companyName": "SmartCity Innovations",
+    "industry": "Urban Development",
+    "naceCode": "71.12",
+    "annualRevenue": 110,
+    "employeeCount": 300,
+    "headquarters": "Toronto, Canada",
+    "status": "Contacted",
+    "keyDecisionMaker": {
+      "name": "John Williams",
+      "title": "Director of Development",
+      "linkedinProfile": "https://www.linkedin.com/in/johnwilliams"
+    },
+    "aiScore": 91,
+    "recentSignals": [
+      "Secured funding for smart city project",
+      "Collaborating with local government"
+    ]
+  }
+]

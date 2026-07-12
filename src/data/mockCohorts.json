@@ -1,0 +1,72 @@
+{
+  "cohorts": [
+    {
+      "cohortId": "1a2b3c4d5e",
+      "name": "Tech Innovators",
+      "sourceQuery": {
+        "description": "Companies in the tech industry with a focus on innovative solutions."
+      },
+      "memberCompanyIds": [
+        "550e8400-e29b-41d4-a716-446655440000",
+        "550e8400-e29b-41d4-a716-446655440001",
+        "550e8400-e29b-41d4-a716-446655440002",
+        "550e8400-e29b-41d4-a716-446655440003",
+        "550e8400-e29b-41d4-a716-446655440004"
+      ],
+      "rankBy": "growthRate"
+    },
+    {
+      "cohortId": "6f7g8h9i0j",
+      "name": "Sustainable Enterprises",
+      "sourceQuery": {
+        "description": "Companies committed to sustainability and eco-friendly practices."
+      },
+      "memberCompanyIds": [
+        "550e8400-e29b-41d4-a716-446655440005",
+        "550e8400-e29b-41d4-a716-446655440006",
+        "550e8400-e29b-41d4-a716-446655440007",
+        "550e8400-e29b-41d4-a716-446655440008",
+        "550e8400-e29b-41d4-a716-446655440009"
+      ],
+      "rankBy": "turnover"
+    }
+  ],
+  "personas": [
+    {
+      "personaId": "abc123xyz",
+      "name": "Growth Enthusiast",
+      "seedCompanyIds": [
+        "550e8400-e29b-41d4-a716-446655440010",
+        "550e8400-e29b-41d4-a716-446655440011"
+      ],
+      "featureVector": {
+        "turnoverGrowthSteepness": 0.85,
+        "marginTrend": 0.7,
+        "profitabilityTrend": 0.75,
+        "exportShareTrend": 0.6,
+        "headcountGrowthTrend": 0.9,
+        "socialMediaActivityLevel": 0.65,
+        "newsMentionFrequency": 0.8
+      },
+      "starRating": 4
+    },
+    {
+      "personaId": "def456uvw",
+      "name": "Eco Advocate",
+      "seedCompanyIds": [
+        "550e8400-e29b-41d4-a716-446655440012",
+        "550e8400-e29b-41d4-a716-446655440013"
+      ],
+      "featureVector": {
+        "turnoverGrowthSteepness": 0.6,
+        "marginTrend": 0.5,
+        "profitabilityTrend": 0.55,
+        "exportShareTrend": 0.65,
+        "headcountGrowthTrend": 0.4,
+        "socialMediaActivityLevel": 0.75,
+        "newsMentionFrequency": 0.7
+      },
+      "starRating": 3
+    }
+  ]
+}

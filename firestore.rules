@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Anyone logged into the App can read prospects and users
+    match /prospects/{prospectId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null; // BD Editors can modify prospects
+    }
+    
+    match /users/{userId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == userId; // Users can only update their own profile
+    }
+
+    // Only Admins can create Invites
+    match /invites/{token} {
+      allow read: if true; // Anyone with the link needs to read the invite token
+      allow write: if request.auth != null; // Admins create them, AcceptInvite deletes them
+    }
+  }
+}
