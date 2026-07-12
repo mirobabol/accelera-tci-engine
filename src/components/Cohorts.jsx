@@ -73,8 +73,8 @@ function Cohorts() {
                 {activeCohort.memberCompanyIds.map((_, i) => (
                   <div key={i} style={{
                     position: 'absolute',
-                    top: \`\${20 + Math.random() * 60}%\`,
-                    left: \`\${20 + Math.random() * 60}%\`,
+                    top: `${20 + Math.random() * 60}%`,
+                    left: `${20 + Math.random() * 60}%`,
                     width: '8px', height: '8px',
                     borderRadius: '50%',
                     background: i % 3 === 0 ? 'var(--color-danger)' : 'var(--color-accent-primary)',
