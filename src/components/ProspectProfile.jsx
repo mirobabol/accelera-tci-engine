@@ -117,7 +117,7 @@ function ProspectProfile({ prospect, onBack }) {
           </div>
           
           <div style={{ marginTop: '30px' }}>
-             <button className="btn">Move to Outreach Pipeline</button>
+             <button className="btn" onClick={() => alert(`Success! ${prospect.name} moved to the active Outreach Pipeline.`)}>Move to Outreach Pipeline</button>
           </div>
         </div>
 

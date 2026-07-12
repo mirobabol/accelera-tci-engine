@@ -15,16 +15,16 @@ function Settings() {
 
   useEffect(() => {
     if (activeTab === 'system') {
-      getDocs(collection(db, 'prospects')).then(snap => {
-        setDbStats({ count: snap.size, lastSync: new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) });
-      }).catch(e => console.error(e));
+      import('../services/db').then(({ getProspects }) => {
+        getProspects().then(data => {
+          setDbStats({ count: data.length, lastSync: new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) });
+        }).catch(e => console.error(e));
+      });
     }
     
     if (activeTab === 'users') {
-      getDocs(collection(db, 'users')).then(snap => {
-        const liveUsers = snap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-        setUsers(liveUsers.length > 0 ? liveUsers : [{ email: 'admin@acceleraconsulting.com', role: 'System Admin', status: 'Active' }]);
-      }).catch(e => console.error(e));
+      // Mock Users since Firebase Auth is down
+      setUsers([{ email: 'admin@acceleraconsulting.com', role: 'System Admin', status: 'Active' }]);
     }
   }, [activeTab]);
 

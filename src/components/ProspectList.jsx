@@ -1,21 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ProspectDrawer from './ProspectDrawer';
-
-// Mock data to be replaced with data from connectors
-const mockProspects = [
-  { id: '1', name: 'DyneXor, s.r.o.', res: 85, aps: 90, acs: 70, sector: 'IT Services', type: 'Hot', turnover: '€2.5M' },
-  { id: '2', name: 'MD COMPANY s.r.o.', res: 75, aps: 80, acs: 60, sector: 'Manufacturing', type: 'Hot', turnover: '€5.1M' },
-  { id: '3', name: 'STEELINVEST, s.r.o.', res: 95, aps: 40, acs: 85, sector: 'Non-ferrous metals', type: 'Nurture', turnover: '€12M' },
-  { id: '4', name: 'MJ-TRADING, s.r.o.', res: 30, aps: 85, acs: 90, sector: 'Retail', type: 'Opportunistic', turnover: '€1.5M' },
-  { id: '5', name: 'GAS Familia, s.r.o.', res: 40, aps: 30, acs: 50, sector: 'Spirits', type: 'Deprioritize', turnover: '€8M' },
-];
+import { getProspects } from '../services/db';
 
 function ProspectList() {
   const [filter, setFilter] = useState('All');
   const [naceFilter, setNaceFilter] = useState('All');
   const [selectedProspect, setSelectedProspect] = useState(null);
+  const [prospects, setProspects] = useState([]);
 
-  const filtered = mockProspects.filter(p => {
+  useEffect(() => {
+    async function load() {
+      const data = await getProspects();
+      setProspects(data);
+    }
+    load();
+  }, []);
+
+  const filtered = prospects.filter(p => {
     const passQuadrant = filter === 'All' || p.type === filter;
     const passNace = naceFilter === 'All' || p.sector.includes(naceFilter);
     return passQuadrant && passNace;

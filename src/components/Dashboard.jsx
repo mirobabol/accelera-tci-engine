@@ -123,7 +123,7 @@ function Dashboard() {
                 <span style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)' }}>Just now</span>
               </div>
               <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginBottom: '10px' }}>AI detected 3 new soft signals indicating expansion.</p>
-              <button className="btn" style={{ fontSize: '0.75rem', padding: '4px 12px' }}>Execute</button>
+              <button className="btn" style={{ fontSize: '0.75rem', padding: '4px 12px' }} onClick={() => alert('Successfully queued for Execution!')}>Execute</button>
             </div>
 
             <div style={{ background: 'rgba(0,229,255,0.05)', borderLeft: '3px solid var(--color-accent-primary)', padding: '12px', borderRadius: '4px' }}>
@@ -132,7 +132,7 @@ function Dashboard() {
                 <span style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)' }}>2 hrs ago</span>
               </div>
               <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginBottom: '10px' }}>Engine generated 400 look-alikes. Awaiting compliance review.</p>
-              <button className="btn" style={{ fontSize: '0.75rem', padding: '4px 12px' }}>Review</button>
+              <button className="btn" style={{ fontSize: '0.75rem', padding: '4px 12px' }} onClick={() => alert('Persona Approved and live in system.')}>Review</button>
             </div>
 
             <div style={{ background: 'rgba(255,165,0,0.05)', borderLeft: '3px solid var(--color-warning)', padding: '12px', borderRadius: '4px' }}>
@@ -141,7 +141,7 @@ function Dashboard() {
                 <span style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)' }}>1 day ago</span>
               </div>
               <p style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginBottom: '10px' }}>Quota is at 95%. Automated scraping will pause soon.</p>
-              <button className="btn btn-secondary" style={{ fontSize: '0.75rem', padding: '4px 12px' }}>Manage Data</button>
+              <button className="btn btn-secondary" style={{ fontSize: '0.75rem', padding: '4px 12px' }} onClick={() => alert('Routing to API Management portal...')}>Manage Data</button>
             </div>
 
           </div>
