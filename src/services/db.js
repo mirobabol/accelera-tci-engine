@@ -2,6 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs, setDoc, updateDoc, doc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import mockData from '../data/mockProspects.json';
+import realScrapedData from '../data/realScrapedProspects.json';
 
 // Apply Live Firebase Config
 const firebaseConfig = {
@@ -38,7 +39,8 @@ export const getProspects = async () => {
     status: 'New' // Force UAT fresh state
   }));
   
-  return safeData;
+  // Combine the original 50 baseline with the 5 newly ingested real companies
+  return [...safeData, ...realScrapedData];
 };
 
 export const updateProspectStage = async (id, newStage) => {

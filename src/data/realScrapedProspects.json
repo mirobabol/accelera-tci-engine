@@ -1,0 +1,115 @@
+[
+  {
+    "id": "31333624",
+    "companyName": "ESET, spol. s r.o.",
+    "headquarters": "Einsteinova 24, Bratislava 851 01",
+    "industry": "62010",
+    "sector": "Technology",
+    "annualRevenue": 15200000,
+    "employees": "Unknown",
+    "signals": "Imported via ORSR/RUZ Pipeline",
+    "recentSignals": [
+      "Legal Data extracted from ORSR",
+      "Financials aggregated from RUZ"
+    ],
+    "officers": [
+      "Ing. Richard Marko",
+      "Ing. Miroslav Trnka"
+    ],
+    "status": "New",
+    "aiScore": 0,
+    "aps": 0
+  },
+  {
+    "id": "35892030",
+    "companyName": "Sygic a. s. (od: 23.02.2010)",
+    "headquarters": "Twin City C, Mlynské Nivy 16 Bratislava - mestská časť Ružinov 821 09 (od: 15.06.2017)",
+    "industry": "62010",
+    "sector": "Technology",
+    "annualRevenue": 15200000,
+    "employees": "Unknown",
+    "signals": "Imported via ORSR/RUZ Pipeline",
+    "recentSignals": [
+      "Legal Data extracted from ORSR",
+      "Financials aggregated from RUZ"
+    ],
+    "officers": [
+      "predstavenstvo",
+      "(od: 10.11.2009)",
+      "Štefan    Jančiga   - Člen predstavenstva    Záhradnícka    74    Bratislava - mestská časť Ružinov    821 08   Vznik funkcie: 31.08.2023",
+      "(od: 03.10.2023)",
+      "Ivan    Jakúbek   - Predseda predstavenstva    Červeňákova    1815/9    Bratislava - mestská časť Dúbravka    841 01   Vznik funkcie: 01.01.2025",
+      "(od: 05.02.2025)",
+      "Ing.    Ivan    Hronec   - Člen predstavenstva    Žltá    3894/34    Bratislava - mestská časť Petržalka    851 07   Vznik funkcie: 03.07.2025",
+      "(od: 12.07.2025)"
+    ],
+    "status": "New",
+    "aiScore": 0,
+    "aps": 0
+  },
+  {
+    "id": "44500959",
+    "companyName": "ESET, spol. s r.o.",
+    "headquarters": "Einsteinova 24, Bratislava 851 01",
+    "industry": "62010",
+    "sector": "Technology",
+    "annualRevenue": 15200000,
+    "employees": "Unknown",
+    "signals": "Imported via ORSR/RUZ Pipeline",
+    "recentSignals": [
+      "Legal Data extracted from ORSR",
+      "Financials aggregated from RUZ"
+    ],
+    "officers": [
+      "Ing. Richard Marko",
+      "Ing. Miroslav Trnka"
+    ],
+    "status": "New",
+    "aiScore": 0,
+    "aps": 0
+  },
+  {
+    "id": "36280712",
+    "companyName": "Innovatrics, s.r.o. (od: 17.02.2006)",
+    "headquarters": "Jurská 14621/19 Bratislava - mestská časť Nové Mesto 831 02 (od: 04.03.2026)",
+    "industry": "62010",
+    "sector": "Technology",
+    "annualRevenue": 15200000,
+    "employees": "Unknown",
+    "signals": "Imported via ORSR/RUZ Pipeline",
+    "recentSignals": [
+      "Legal Data extracted from ORSR",
+      "Financials aggregated from RUZ"
+    ],
+    "officers": [
+      "konateľ",
+      "(od: 17.02.2006)",
+      "Ján    Lunter    Západný rad    3771/20    Bratislava - mestská časť Staré Mesto    811 04   Vznik funkcie: 17.02.2006",
+      "(od: 05.04.2023)"
+    ],
+    "status": "New",
+    "aiScore": 0,
+    "aps": 0
+  },
+  {
+    "id": "47088030",
+    "companyName": "ESET, spol. s r.o.",
+    "headquarters": "Einsteinova 24, Bratislava 851 01",
+    "industry": "62010",
+    "sector": "Technology",
+    "annualRevenue": 15200000,
+    "employees": "Unknown",
+    "signals": "Imported via ORSR/RUZ Pipeline",
+    "recentSignals": [
+      "Legal Data extracted from ORSR",
+      "Financials aggregated from RUZ"
+    ],
+    "officers": [
+      "Ing. Richard Marko",
+      "Ing. Miroslav Trnka"
+    ],
+    "status": "New",
+    "aiScore": 0,
+    "aps": 0
+  }
+]
