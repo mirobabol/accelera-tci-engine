@@ -15,10 +15,10 @@ const firebaseConfig = {
 
 // Initialize Firebase only if keys exist, otherwise mock the DB connection
 let app, db, auth;
-let isMockDB = true; // FORCE MOCK MODE because Firebase API is disabled in GCP
+let isMockDB = true;
 
 try {
-  if (firebaseConfig.apiKey !== "mock-key" && false) { // Skip Firebase init
+  if (firebaseConfig.apiKey !== "mock-key") {
     app = initializeApp(firebaseConfig);
     db = getFirestore(app);
     auth = getAuth(app);
