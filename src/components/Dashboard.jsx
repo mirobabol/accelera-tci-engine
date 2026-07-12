@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, LineChart, Line, Tooltip } from 'recharts';
+import { getProspects } from '../services/db';
 
 const radarData = [
   { subject: 'Financial Stability', A: 120, B: 110, fullMark: 150 },
@@ -15,6 +16,21 @@ const sparklineData2 = [{ v: 100 }, { v: 95 }, { v: 90 }, { v: 80 }, { v: 85 }, 
 const sparklineData3 = [{ v: 20 }, { v: 30 }, { v: 45 }, { v: 60 }, { v: 85 }, { v: 95 }, { v: 98 }];
 
 function Dashboard() {
+  const [prospects, setProspects] = useState([]);
+
+  useEffect(() => {
+    async function load() {
+      const data = await getProspects();
+      setProspects(data);
+    }
+    load();
+  }, []);
+
+  const totalProspects = prospects.length;
+  const hotTargets = prospects.filter(p => p.aiScore > 85).length;
+  const signed = prospects.filter(p => p.status === 'Signed').length;
+  const avgConversion = totalProspects > 0 ? ((signed / totalProspects) * 100).toFixed(1) + '%' : '0%';
+
   return (
     <div className="dashboard page-content" style={{ padding: '0', display: 'flex', flexDirection: 'column', height: '100%', gap: '25px' }}>
       
@@ -55,9 +71,9 @@ function Dashboard() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', padding: '0 20px' }}>
         {/* Metric Pods with Sparklines */}
         {[ 
-          { title: 'Total Prospects', value: '4,892', data: sparklineData1, stroke: 'url(#colorTotal)', textColor: '#00E5FF', shadow: '0 0 15px rgba(0, 229, 255, 0.5)' },
-          { title: 'Hot Targets', value: '845', data: sparklineData2, stroke: 'url(#colorHot)', textColor: '#39FF14', shadow: '0 0 15px rgba(57, 255, 20, 0.5)' },
-          { title: 'Avg Conversion', value: '18.4%', data: sparklineData3, stroke: 'url(#colorConv)', textColor: '#8B5CF6', shadow: '0 0 15px rgba(139, 92, 246, 0.5)' }
+          { title: 'Total Prospects', value: totalProspects.toLocaleString(), data: sparklineData1, stroke: 'url(#colorTotal)', textColor: '#00E5FF', shadow: '0 0 15px rgba(0, 229, 255, 0.5)' },
+          { title: 'Hot Targets', value: hotTargets.toLocaleString(), data: sparklineData2, stroke: 'url(#colorHot)', textColor: '#39FF14', shadow: '0 0 15px rgba(57, 255, 20, 0.5)' },
+          { title: 'Avg Conversion', value: avgConversion, data: sparklineData3, stroke: 'url(#colorConv)', textColor: '#8B5CF6', shadow: '0 0 15px rgba(139, 92, 246, 0.5)' }
         ].map((metric, i) => (
           <div key={i} className="card" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '20px 25px' }}>
             <div>
