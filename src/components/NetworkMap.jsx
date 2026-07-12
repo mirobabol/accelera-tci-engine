@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import mockProspects from '../data/mockProspects.json';
+import { getProspects } from '../services/db';
 import ProspectDrawer from './ProspectDrawer';
 
 function NetworkMap() {
@@ -7,7 +7,11 @@ function NetworkMap() {
   const [selectedProspect, setSelectedProspect] = useState(null);
 
   useEffect(() => {
-    setProspects(mockProspects || []);
+    async function load() {
+      const data = await getProspects();
+      setProspects(data);
+    }
+    load();
   }, []);
 
   // Generate deterministic "random" positions for nodes in a circle
